@@ -10,6 +10,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script>
         $(function() {
+            //Question 3-7
             $('section h2').css('border-style', 'solid').css('border-color', 'black').css('border-width', '1px');
             $('section h2').css('color', '#CC1C0D');
             $('section h2').css('padding-top', '3px').css('padding-left', '20px').css('padding-bottom', '3px');
@@ -22,18 +23,18 @@
             $('aside h2').css('border-top-right-radius', '5px').css('border-bottom-left-radius', '5px');
             $('aside h2').css('background-color', '#DFE3E6');
 
+            //Question 8-12
             $('nav ul li a').addClass('navigation');
             $('.navigation').css('border-style', 'solid').css('border-color', '#929CA4').css('border-width', '1px');
             $('.navigation').css('color', '#CC1C0D');
             $('.navigation').css('padding-top', '3px').css('padding-left', '20px').css('padding-bottom', '3px');
             $('.navigation').css('background-color', '#DFE3E6');
 
+            //Question 3-7
             $('p').removeClass('vprospect');
             $('p').removeClass('vconvert');
             $('p').removeClass('vretain');
-
             $('aside p:first-of-type').wrapInner("<q></q>");
-
             $("aside>p:contains('President')").after("Chevy Dealers Association");
 
         });
